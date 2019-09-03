@@ -11,7 +11,8 @@ public class FileRoutebuilder extends RouteBuilder {
 
   @Override
   public void configure() throws Exception {
-    from("file:d:/vids").to("file:d:/temp");
+    // from("file:d:/vids").to("file:d:/temp");
+    logger.info("Routing from:");
   }
 
 }
